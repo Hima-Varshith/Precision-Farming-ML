@@ -1,9 +1,20 @@
-# Precision-Agricuture
-Implemented methods of Machine Learning to develop a sustainable model of precision farming by creating an algorithm which predicts the optimum amount of water 
-required by the crop at an hourly rate by analysing GFS dataset from Google Earth Engine.
+# Precision Farming Machine Learning Model
 
-Website : https://sites.google.com/view/projectfarmtech/home
+This project was developed under the **CTE Tech Incubation Program** and focuses on building a **machine learning model** for sustainable precision farming.  
+The algorithm predicts the **optimum hourly water requirement** for crops by estimating **evapotranspiration rates** using weather and environmental data obtained from **Google Earth Engine (GEE)** and **Weather APIs**.
 
-ML Team Member (myself) : Hima Varshith
+---
 
-ML Team Head : Anagh Pranshu
+## Overview
+
+The model applies **regression-based machine learning techniques** to analyze climatic variables such as temperature, humidity, solar radiation, and wind speed.  
+By learning patterns in historical and real-time data, it supports efficient irrigation management and data-driven agricultural planning.
+
+---
+
+### Tech Stack
+- **Language:** Python  
+- **Libraries:** scikit-learn, pandas, NumPy, matplotlib  
+- **Data Sources:** Google Earth Engine, Weather APIs  
+
+---
